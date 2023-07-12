@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Maverick</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Welcome Iyeng</h1>
+        <button id="play">Play</button>
+        <script>
+            let play = document.getElementById("play");
+            function playmusic() {
+                let audio = new Audio("Wakey.mp3");
+                audio.play()
+            }
+            play.addEventListener("click", playmusic);
+        </script>
+        <div class="greating">
+            <P>Wakey....Wakey</P>
+            <p>Rise and Shine</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
